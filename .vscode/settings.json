@@ -1,0 +1,34 @@
+{
+    "code-runner.executorMap": {
+      "typescript": "npx ts-node --files --transpile-only",
+      "javascript": "node",
+      "python": "python"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+          "source.fixAll": true
+        },
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+          "source.fixAll": true
+        },
+    },
+    "[python]": {
+        // "python.analysis.extraPaths": [
+        //   "./joltik"
+        // ],
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.wordBasedSuggestions": false,
+        "editor.tabSize": 4
+    },
+    "python.defaultInterpreterPath": "venv/bin/python",
+    // "pylint.args": ["--disable=all"]
+  }

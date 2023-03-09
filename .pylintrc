@@ -1,0 +1,3 @@
+[MESSAGES CONTROL]
+
+disable=missing-docstring,empty-docstring,unused-import,redefined-outer-name,invalid-str-returned,missing-module-docstring
